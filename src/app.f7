@@ -1,0 +1,75 @@
+<template>
+  <div id="app">
+    <!-- Left panel with cover effect-->
+    <div class="panel panel-left panel-cover theme-dark panel-init">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title" align="center">Menú</div>
+            </div>
+          </div>
+          <div class="page-content">
+            <li>
+              <a href="/reduccionRD/" class="button">
+                Reducción de riesgos y daños</a
+              >
+            </li>
+            <li>
+              <a href="/quieneSomos/" class="button">Quiénes somos</a>
+            </li>
+            <li>
+              <a href="/alertaPsicoactiva/" class="button"
+                >Alerta psicoactiva</a
+              >
+            </li>
+            <li>
+              <a href="/dietaP/" class="button">Dieta psicoactiva</a>
+            </li>
+            <li>
+              <a href="/pImpactadas/" class="button">Personas impactadas</a>
+            </li>
+            <li>
+              <a href="/infoSustancias/" class="button">Info sustancias</a>
+            </li>
+            <li>
+              <a href="/festivalC/" class="button">Festival de cortos</a>
+            </li>
+            <li>
+              <a href="/informes/" class="button">Informes</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main view-init safe-areas" data-url="/"></div>
+
+    <!-- Popup -->
+    <div class="popup" id="my-popup">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title">Popup</div>
+              <div class="right">
+                <a href="#" class="link popup-close">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block">
+              <p>Popup content goes here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</template>
