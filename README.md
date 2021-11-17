@@ -1,31 +1,5 @@
 # APA
 
-## Framework7 CLI Options
-
-Framework7 app created with following options:
-
-```
-{
-  "cwd": "C:\\Users\\Jewar21\\Desktop\\Nueva carpeta\\trabajo final\\App\\Nueva carpeta\\AppFramework7",
-  "type": [
-    "web"
-  ],
-  "name": "APA",
-  "framework": "core",
-  "template": "single-view",
-  "bundler": "vite",
-  "cssPreProcessor": false,
-  "theming": {
-    "customColor": false,
-    "color": "#007aff",
-    "darkTheme": false,
-    "iconFonts": true,
-    "fillBars": false
-  },
-  "customBuild": false
-}
-```
-
 ## Install Dependencies
 
 First of all we need to install dependencies, run in terminal
