@@ -41,16 +41,7 @@
     </div>
     <div class="page-content">
       <div class="block display-flex flex-direction-column align-items-center">
-        <div
-          class="
-            carta
-            pink
-            display-flex
-            flex-direction-column
-            align-items-center
-            text-align-center
-          "
-        >
+        <div class="carta pink">
           <svg
             version="1.0"
             xmlns="http://www.w3.org/2000/svg"
@@ -69,15 +60,7 @@
           </svg>
           <h2 class="title-section">¿Quiénes somos?</h2>
         </div>
-        <div
-          class="
-            carta
-            pink
-            display-flex
-            align-items-center
-            justify-content-center
-          "
-        >
+        <div class="carta pink">
           <p class="textQS">
             <span>
               Somos un Proyecto que busca generar y difundir información sobre

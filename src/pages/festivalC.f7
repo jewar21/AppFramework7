@@ -39,7 +39,24 @@
         </div>
       </div>
     </div>
-    <div class="page-content"></div>
+    <div class="page-content">
+      <div class="block display-flex flex-direction-column align-items-center">
+        <div class="carta pink">
+          <img
+            class="iconPage"
+            src="../assets/images/festivalC.svg"
+            alt="icono"
+          />
+          <h2 class="title-section">Festival de cortos</h2>
+        </div>
+        <div class="carta">
+          <h2 class="title-section">DROGAS PANDEMIA Y SALUD MENTAL</h2>
+        </div>
+        <div class="carta pink">
+          <h2 class="title-section">VII FESTIVAL DE CORTOS SPCIOACTIVOS</h2>
+        </div>
+      </div>
+    </div>
     <!-- Toolbar-->
     <div class="toolbar toolbar-bottom">
       <div class="toolbar-inner">

@@ -155,6 +155,7 @@ i.icon {
 
 .carta {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #53c431;
@@ -167,7 +168,7 @@ i.icon {
 }
 
 .carta svg {
-  margin-top: 15px;
+  /* margin-top: 15px; */
   width: 35%;
   height: auto;
 }
@@ -181,7 +182,7 @@ i.icon {
 .thumbsUp {
   width: 60px;
   height: auto;
-  margin-right: 10px;
+  margin:0 10px 0 10px;
 }
 
 .thumbsText {
@@ -205,9 +206,34 @@ i.icon {
 .title-section {
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
+  margin-right: .5em;
+  margin-left: .5em;
 }
 
 .alertaPsico {
   width: 100%;
   height: auto;
+}
+
+.cartaExp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #53c431;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+.cartaExpPink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EB2E92;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 5%;
 }

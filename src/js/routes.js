@@ -13,6 +13,9 @@ import FestivalC from "../pages/festivalC.f7";
 import Informes from "../pages/informes.f7";
 import NotFoundPage from "../pages/404.f7";
 
+import Despues from "../pages/despues.f7";
+import Antes from "../pages/antes.f7";
+
 var routes = [
   {
     path: "/",
@@ -62,6 +65,14 @@ var routes = [
   {
     path: "/informes/",
     component: Informes
+  },
+  {
+    path: "/despues/",
+    component: Despues
+  },
+  {
+    path: "/antes/",
+    component: Antes
   },
 
   {

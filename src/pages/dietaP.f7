@@ -39,7 +39,42 @@
         </div>
       </div>
     </div>
-    <div class="page-content"></div>
+    <div class="page-content">
+      <div class="block display-flex flex-direction-column align-items-center">
+        <div
+          class="
+            carta
+            display-flex
+            flex-direction-column
+            align-items-center
+            text-align-center
+          "
+        >
+          <img class="iconPage" src="../assets/images/dietaP.svg" alt="icono" />
+          <h2 class="title-section">Dieta psicoactiva</h2>
+        </div>
+        <div
+          class="
+            carta
+            pink
+            display-flex
+            align-items-center
+            justify-content-center
+          "
+        >
+          <a href="/despues/">
+            <h2 class="title-section">Para después de la fiesta</h2>
+          </a>
+        </div>
+        <div
+          class="carta display-flex align-items-center justify-content-center"
+        >
+          <a href="/despues/">
+            <h2 class="title-section">Antes y durante de la fiesta</h2>
+          </a>
+        </div>
+      </div>
+    </div>
     <!-- Toolbar-->
     <div class="toolbar toolbar-bottom">
       <div class="toolbar-inner">
