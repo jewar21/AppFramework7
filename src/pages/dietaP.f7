@@ -69,7 +69,7 @@
         <div
           class="carta display-flex align-items-center justify-content-center"
         >
-          <a href="/despues/">
+          <a href="/antes/">
             <h2 class="title-section">Antes y durante de la fiesta</h2>
           </a>
         </div>

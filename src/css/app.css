@@ -161,7 +161,6 @@ i.icon {
 
 .carta {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #53c431;
