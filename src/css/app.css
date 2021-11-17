@@ -74,11 +74,17 @@ i.icon {
 
 .title {
   color: #53c431;
+  margin-top: .2em;
+  font-size: 2em;
 }
 
 .page-content li {
   color: #fff;
   list-style: none;
+}
+
+.separator {
+  margin-top: 2em;
 }
 
 .page-content a {

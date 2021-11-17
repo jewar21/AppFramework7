@@ -4,46 +4,41 @@
     <div class="panel panel-left panel-cover theme-dark panel-init">
       <div class="view">
         <div class="page">
-          <div class="navbar">
-            <div class="navbar-bg"></div>
-            <div class="navbar-inner">
-              <div class="title" align="center">Menú</div>
-            </div>
-          </div>
+          <div class="title" align="center">Menú</div>
+
           <div class="page-content">
-            <li>
+            <li class="separator">
               <a href="/reduccionRD/" class="button">
                 Reducción de riesgos y daños</a
               >
             </li>
-            <li>
+            <li class="separator">
               <a href="/quieneSomos/" class="button">Quiénes somos</a>
             </li>
-            <li>
+            <li class="separator">
               <a href="/alertaPsicoactiva/" class="button"
                 >Alerta psicoactiva</a
               >
             </li>
-            <li>
+            <li class="separator">
               <a href="/dietaP/" class="button">Dieta psicoactiva</a>
             </li>
-            <li>
+            <li class="separator">
               <a href="/pImpactadas/" class="button">Personas impactadas</a>
             </li>
-            <li>
+            <li class="separator">
               <a href="/infoSustancias/" class="button">Info sustancias</a>
             </li>
-            <li>
+            <li class="separator">
               <a href="/festivalC/" class="button">Festival de cortos</a>
             </li>
-            <li>
+            <li class="separator">
               <a href="/informes/" class="button">Informes</a>
             </li>
           </div>
         </div>
       </div>
     </div>
-    
 
     <!-- Your main view, should have "view-main" class -->
     <div class="view view-main view-init safe-areas" data-url="/"></div>
@@ -69,7 +64,5 @@
         </div>
       </div>
     </div>
-
-    
   </div>
 </template>
