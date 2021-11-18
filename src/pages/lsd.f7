@@ -4,12 +4,9 @@
       <div class="navbar-bg"></div>
       <div class="navbar-inner sliding">
         <div class="left">
-          <a href="#" class="link panel-open" data-panel="left">
-            <svg viewBox="0 0 128 128" fill="#EB2E92">
-              <path
-                d="M97.092 36.078H30.908a2.111 2.111 0 0 0 0 4.222h66.184a2.111 2.111 0 0 0 0-4.222zM97.092 61.889H30.908a2.111 2.111 0 0 0 0 4.222h66.184a2.111 2.111 0 0 0 0-4.222zM97.092 87.7H30.908a2.111 2.111 0 0 0 0 4.222h66.184a2.111 2.111 0 0 0 0-4.222z"
-              />
-            </svg>
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md"> </span>
           </a>
         </div>
         <div class="searchbar searchbar-inline">
@@ -41,119 +38,27 @@
     </div>
     <div class="page-content">
       <div class="block display-flex flex-direction-column align-items-center">
-        <div class="carta pink flex-direction-column">
+        <div class="carta flex-direction-column pink">
           <img
             class="iconPage"
-            src="../assets/images/sustancias.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">Info sustancias</h2>
-        </div>
-        <a href="/lsd/" class="pink carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
             src="../assets/images/sustancias/lsd.svg"
             alt="icono"
           />
           <h2 class="title-section">lsd</h2>
-        </a>
-        <a href="/alcohol/" class="carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/alcohol.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">alcohol</h2>
-        </a>
-        <a href="/2cb/" class="pink carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/2cb.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">2cb</h2>
-        </a>
-        <a href="/nbome/" class="carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/nbome.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">nbome</h2>
-        </a>
-        <a href="/nicotina/" class="pink carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/nicotina.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">nicotina tabaco</h2>
-        </a>
-        <a href="/cocaina/" class="carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/cocaina.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">cocaina</h2>
-        </a>
-        <a href="/marihuana/" class="pink carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/marihuana.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">marihuana</h2>
-        </a>
-        <a href="/ketamina/" class="carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/ketamina.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">ketamina</h2>
-        </a>
-        <a href="/extasis/" class="pink carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/extasis.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">extasis</h2>
-        </a>
-        <a href="/popper/" class="carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/popper.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">popper</h2>
-        </a>
-        <a href="/heroina/" class="pink carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/heroina.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">heroina</h2>
-        </a>
-        <a href="/anfetamina/" class="carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/anfeta.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">anfetamina</h2>
-        </a>
-        <a href="/mescalina/" class="pink carta justify-content-flex-start">
-          <img
-            class="thumbsUp"
-            src="../assets/images/sustancias/mescalina.svg"
-            alt="icono"
-          />
-          <h2 class="title-section">mescalina</h2>
-        </a>
-        
+        </div>
+        <div class="carta pink">
+          <p class="textQS">
+            Desaparece el cansancio, euforia, ganas de bailar o realizar alguna
+            actividad física. intensificación de las sensaciones confianza y
+            empatía hacia las demás personas.
+          </p>
+        </div>
+        <div class="carta pink">
+          <p class="textQS">
+            El efecto puede durar entre 2 a 3 horas, incluso suele durar unas 4
+            – 6 horas,
+          </p>
+        </div>
       </div>
     </div>
     <!-- Toolbar-->
